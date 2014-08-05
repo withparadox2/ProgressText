@@ -1,7 +1,6 @@
 ##Android ProgressText
-----
-用来实现歌词字级同步或
-###使用方法
+用来实现歌词字级同步
+###使用方法：
 ```
 dependencies {
     compile project (':library')
@@ -24,6 +23,7 @@ dependencies {
     textView = (ProgressText) findViewById(R.id.progress_text);
     textView.setText("绿岛小夜曲");
     textView.setProgressBypercentage(0.68f);
+  //textView.setProgressBypixels(150);
 ```
 ![image](https://github.com/withparadox2/ProgressText/raw/master/screenshots/progress_text_mini.png)
 
